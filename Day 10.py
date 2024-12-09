@@ -1,6 +1,4 @@
-l=[int(i) for i in INPUT1.split()]
-
-l=[int(i) for i in INPUT2.split()]
+l=[int(i) for i in INPUT.split()]
 
 l.sort()
 l=[0]+l
