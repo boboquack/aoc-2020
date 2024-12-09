@@ -1,4 +1,4 @@
-c=[int(i) for i in '459672813']
+c=[int(i) for i in INPUT]
 
 cur=c[0]
 for i in range(100):
@@ -23,7 +23,7 @@ x=c.index(1)
 c=c[x:]+c[:x]
 print(''.join(str(i) for i in c[1:]))
 
-r=[int(i)-1 for i in '459672813']
+r=[int(i)-1 for i in INPUT]
 
 cups=[0]*1000000
 
