@@ -1,4 +1,4 @@
-l=[0,6,1,7,2,19,20]
+l=list(map(int,INPUT.split()))
 
 while len(l)<2020:
     x=l[-1]
@@ -11,7 +11,7 @@ while len(l)<2020:
         l.append(0)
 print(l[-1])
 
-l=[0,6,1,7,2,19,20]
+l=list(map(int,INPUT.split()))
 
 d={l[i]:i for i in range(len(l)-1)}
 last=l[-1]
