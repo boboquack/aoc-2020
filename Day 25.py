@@ -1,5 +1,5 @@
-x=10943862
-y=12721030
+x=int(INPUT.split()[0])
+y=int(INPUT.split()[1])
 
 m=20201227
 
