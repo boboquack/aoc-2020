@@ -1,8 +1,6 @@
-l=[int(i) for i in INPUT.split()]
+l=[int(i) for i in INPUT1.split()]
 
-l=[int(i) for i in '''47
-... 90 lines omitted
-92'''.split()]
+l=[int(i) for i in INPUT2.split()]
 
 l.sort()
 l=[0]+l
